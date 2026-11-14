@@ -1,13 +1,13 @@
-/*
 
-#include <stdio.h>
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
+// #include <stdio.h>
 
-*/
+// int main() {
+//     printf("Hello, World!\n");
+//     return 0;
+// }
+
+
 
 
 /*
@@ -1224,21 +1224,21 @@ int main(){
 //  *****
 //  *****
 
-/*
 
-#include <stdio.h>
-int main(){
-    for (int i = 1;i<=4; i++){
-        for (int j = 1;j<=4; j++){
-            printf("*");
-        }
-        printf("*\n");
 
-    }
-    return 0;
-}
+// #include <stdio.h>
+// int main(){
+//     for (int i = 1;i<=4; i++){
+//         for (int j = 1;j<=4; j++){
+//             printf("*");
+//         }
+//         printf("*\n");
+
+//     }
+//     return 0;
+// }
     
-*/
+
 
 
 
@@ -1246,34 +1246,40 @@ int main(){
 // POGRAM TO CHECK IF THE INPUT NUMBER IS PRIME OR NOT
 
 
-#include <stdio.h>
-int main(){
-    int n;
-    printf("Enter a number to check wheather its prime or not : ");
-    scanf("%d",&n);
+// #include <stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a number to check wheather its prime or not : ");
+//     scanf("%d",&n);
 
-    int is_prime = 0;
-    if (n<=1){
-        is_prime=1;
-    }
-    else{
+//     int is_prime = 0;
+//     if (n<=1){
+//         is_prime=1;
+//     }
+//     else{
         
-            for (int i = 2; i<=n/2 ;i++){
-                n%i==0;
-                is_prime=1;
-            }
+//             for (int i = 2; i<=n/2 ;i++){
+//                 n%i==0;
+//                 is_prime=1;
+//             }
 
-    }
+//     }
 
-    if (is_prime){
-        printf("%d is an prime number.",n);
-    }
-    else{
-        printf("%d is not a prime number.",n);
-    }
-    return 0;
+//     if (is_prime){
+//         printf("%d is an prime number.",n);
+//     }
+//     else{
+//         printf("%d is not a prime number.",n);
+//     }
+//     return 0;
 
-}
+// }
+
+
+
+
+
+035105
 
 
 
